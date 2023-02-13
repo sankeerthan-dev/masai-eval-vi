@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap');
+
+.navBar{
+  border: 1px solid black;
+  background-color: rgb(1, 1, 43);
+}
+.navBar button{
+  border-width: 0;
+  color:#fff;
+  background-color: rgb(1, 1, 43);
+  font-size: 20px;
+}
+
+.navButtonBox{
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  width:30%;
+}
+
+.navButtonBox button{
+  margin: left 6px right 6px;
+  padding:0.7rem;
+}
+
+.app{
+  background-color: rgb(30, 30, 53);
+  padding: 20px;
+  display: flex;
+  font-family: 'Hind';
+}
+
+.nameContainer{
+  background-color: rgb(61, 61, 97);
+  color: #fff;
+  /* margin-top: 20px; */
+  border-radius: 1rem;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.profileContainer{
+  width: 30%;
+}
+.tagLineContainer{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  /* border: 1px solid white; */
+  justify-content: center;
+  font-size: 25px;
+}
+.nameContainer button{
+  padding: 7px;
+  border-radius: 50px;
+  width: 30%;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.techStackContainer{
+  background-color: rgb(61, 61, 97);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  margin-top: 10px;
+  width: 100%;
+}
+
+.experienceContainer{
+  background-color: rgb(61, 61, 97);
+  color: #fff;
+  border-radius: 1rem;
+  padding: 20px;
+  margin-top: 10px;
+  /* width: 100%; */
+}
+
+.nameContainer a{
+  color: #fff;
+  text-decoration: none;
+}
+.app{
+  margin: 0;
+}
+
+.techStackContainer div{
+  border: 0.5px solid green;
+  margin: 5px;
+  background-color: rgb(108, 108, 150);
+  border-radius: 3px;
+}
+
+.techStackContainer p{
+  margin: 2px;
+  color: aquamarine;
+}
+.projectsContainer{
+  border: 1px solid black;
+  margin-left: 5%;
+  width: 70%;
+  border-radius: 20px;
+  background-color:rgb(61, 61, 97) ;
+}
+
+.gridDisplayArea{
+  display: grid;
+  width: 95%;
+  padding: 10px;
+  grid-template-columns: auto auto;
+  margin: auto;
+  gap: 10px;
+  /* margin-top: 15px; */
+  background-color: rgb(61, 61, 97);
+}
+
+.gridItem{
+  align-items: center;
+  border:1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.gridDisplayArea a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+} 
+
+.gridItem div{
+  display: flex;
+}
+
+.gridItem i{
+  margin-right: 10px;
+  margin-top: 23px;
+}
+
+.gitActionsContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header{
+  color:#fff;
+  text-align: center;
+}
+
+.proImage{
+  border-radius: 50%;
+}
+
+.experienceBackground{
+  margin-top: 0;
+  height: 700px;
+  /* width: 100%; */
+  background-color: rgb(30, 30, 53);
+  /* border:1px solid red; */
+  padding:20px;
+  
+}
+.projectBackground{
+  margin-top: 0;
+  background-color: rgb(30, 30, 53);
+  height: 100%;
+  padding-top: 15px;
+}
